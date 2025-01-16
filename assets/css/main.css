@@ -7,10 +7,11 @@
 --darkMaincolor: #50fa7b;
 }
 html {
+  -webkit-font-smoothing: antialiased;
   color: #232333;
   font-family: 'Roboto Mono', monospace;
   font-size: 15px;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 body{
   display: block;
@@ -142,12 +143,40 @@ header {
 }
 
 header .main {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-size: 1.2rem;
-  margin-top: 2em;
+  margin-top: 1em;
 }
+h1{
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+h2{
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+h3{
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+h4{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+h5{
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+h6{
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+
+
+
 
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
